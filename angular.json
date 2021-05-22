@@ -37,6 +37,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+              "baseHref": "/Angular_PWA/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,

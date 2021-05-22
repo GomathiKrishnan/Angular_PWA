@@ -4,13 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open --port 4567",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "start-pwa": "ng build --prod && http-server -p 8080 -c-1 dist/Angular_PWA",
-    "predeploy": "ng build --prod --base-href=/Angular_PWA/",
-    "deploy": "npx gh-pages -d dist/Angular_PWA"
+    "start-pwa": "ng build --prod && http-server -p 8080 -c-1 dist/Angular-PWA",
+    "deploy": "npx gh-pages -d dist/Angular-PWA"
   },
   "private": true,
   "dependencies": {
